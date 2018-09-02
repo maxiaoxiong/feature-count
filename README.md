@@ -27,5 +27,10 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
+在 web.php 中添加配置
+
 ```php
-<?= \larax\feature\AutoloadExample::widget(); ?>```
+'as beforeRequest' => 
+[
+    'class' => 'larax\feature\AppFilter'
+]
