@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "larax\\feature\\": ""
+            "larax\\feature\\": "src/"
         }
     }
 }
